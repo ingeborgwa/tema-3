@@ -1,0 +1,76 @@
+@import url("type.css");
+@import url("buttons.css");
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #B7B7A4;
+    padding: 0.7em;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 678px) {
+    body{
+        width: 600px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+header{
+    text-align: right;
+    padding: 0.5rem;
+    margin-bottom: 0.3em;
+}
+
+
+.container {
+    display: grid;
+    justify-content: center;
+    border: 8px solid #CB997E;
+    background-color: #F0EFEB;
+    padding: 0.7em;
+    margin-bottom: 1em;
+}
+
+
+.delete {
+    display: none;
+    
+}
+
+
+
+/*-------WATER GLASS--------*/
+
+
+.water-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.water-glass{
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 18em;
+    padding: 1em;
+}
+
+
+img{
+    height: 10em;
+    padding: 0.3em;
+}

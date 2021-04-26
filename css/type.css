@@ -1,0 +1,53 @@
+
+ /* colors:
+    #EDDCD2 - champagne pink
+    #A5A58D - artichoke (green)
+    #F0EFEB - isabelline (hvit)
+    #CB997E - antique brass(beig)
+ */   
+
+
+h1{
+    font-size: 10rem;
+    font-family: 'Playfair Display', serif;
+    color: #CB997E;
+    margin: 0;
+    
+}
+
+.subheader{
+    color: #EDDCD2;
+}
+
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    color: #CB997E;
+    font-size: 5rem;
+    padding: 0.2em;
+    margin: 0;
+}
+
+
+h3{
+    font-size: 2rem;
+    text-align: center;
+    color: #CB997E
+}
+
+
+p{
+    font-size: 2rem;
+    color: #A5A58D;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+
+li{
+    font-size: 2rem;
+    color: #CB997E;
+    padding: 0.1em;
+}

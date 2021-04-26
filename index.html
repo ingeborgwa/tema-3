@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan your day</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>GET IT DONE</h1>
+        <h2 class="subheader">plan your day</h2>
+        <div id="circle"></div>
+    </header>
+
+    <section class="container">
+        <div>
+            <h2>TO DO</h2>
+            <h3>make your list here</h3>
+            <input id="userInput" type="text" placeholder="Write your to-dos here.." maxlength="27">
+            <button id="enter">Add</button>
+        </div>
+        <!-- Tom liste -->
+        <div>
+            <div class="listItems">
+                <ul></ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>NOTES</h2>
+        <h3>need to take some notes, do it here</h3>
+        <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Start taking your notes here.."></textarea>
+    </section>
+
+    <section class="container">
+        <div>
+            <div>
+            <h2>Fancy a motivational quote?</h2>
+            <div id="quote"></div>
+            <button onclick="displayQuote()" class="btn">Get quote</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>DRINK UP</h2>
+        <h3>Remember to drink enough water</h3>
+        <div class="water-container">
+            <div class="water-glass">
+                <img id="glass1" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass1').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass1').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass2" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass2').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass2').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass3" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass3').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass3').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass4" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass4').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass4').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass5" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass5').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass5').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass6" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass6').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass6').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass7" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass7').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass7').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass8" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass8').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass8').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass9" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass9').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass9').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+            <div class="water-glass">
+                <img id="glass10" src="../img/glass_full.png" alt="Glass of water. Illustration.">
+                <button class="empty-glass-btn" onclick="document.getElementById('glass10').src='../img/glass_empty.png'">Empty glass</button>
+                <button class="fill-glass-btn" onclick="document.getElementById('glass10').src='../img/glass_full.png'">Fill up glass</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
